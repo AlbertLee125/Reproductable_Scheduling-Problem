@@ -1,0 +1,154 @@
+{
+    "I": ["T1", "T2", "T3", "T4", "T5", "T6", "T7"],
+    "J": ["U1", "U2", "U3", "U4", "U5", "U6"],
+    "K": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10", "S11"],
+    "delta": 1,
+    "lastT": 120,
+    "I_i_k_minus": [
+        {"index": ["T1", "S1"], "value": 1},
+        {"index": ["T1", "S4"], "value": 1},
+        {"index": ["T2", "S2"], "value": 1},
+        {"index": ["T3", "S5"], "value": 1},
+        {"index": ["T4", "S6"], "value": 1},
+        {"index": ["T4", "S9"], "value": 1},
+        {"index": ["T5", "S3"], "value": 1},
+        {"index": ["T5", "S7"], "value": 1},
+        {"index": ["T6", "S8"], "value": 1},
+        {"index": ["T7", "S9"], "value": 1}
+    ],
+    "I_i_k_plus": [
+        {"index": ["T1", "S5"], "value": 1},
+        {"index": ["T2", "S4"], "value": 1},
+        {"index": ["T2", "S6"], "value": 1},
+        {"index": ["T3", "S7"], "value": 1},
+        {"index": ["T4", "S8"], "value": 1},
+        {"index": ["T5", "S5"], "value": 1},
+        {"index": ["T5", "S9"], "value": 1},
+        {"index": ["T6", "S10"], "value": 1},
+        {"index": ["T7", "S11"], "value": 1}
+    ],
+    "rho_minus": [
+        {"index": ["T1", "S1"], "value": 1},
+        {"index": ["T1", "S4"], "value": 1},
+        {"index": ["T2", "S2"], "value": 1},
+        {"index": ["T3", "S5"], "value": 1},
+        {"index": ["T4", "S6"], "value": 0.9},
+        {"index": ["T4", "S9"], "value": 0.1},
+        {"index": ["T5", "S3"], "value": 0.05},
+        {"index": ["T5", "S7"], "value": 0.95},
+        {"index": ["T6", "S8"], "value": 1},
+        {"index": ["T7", "S9"], "value": 1}
+    ],
+    "rho_plus": [
+        {"index": ["T1", "S5"], "value": 1},
+        {"index": ["T2", "S4"], "value": 0.3},
+        {"index": ["T2", "S6"], "value": 0.7},
+        {"index": ["T3", "S7"], "value": 1},
+        {"index": ["T4", "S8"], "value": 1},
+        {"index": ["T5", "S5"], "value": 0.2},
+        {"index": ["T5", "S9"], "value": 0.8},
+        {"index": ["T6", "S10"], "value": 1},
+        {"index": ["T7", "S11"], "value": 1}
+    ],
+    "I_i_j_prod": [
+        {"index": ["T1", "U1"], "value": 1},
+        {"index": ["T1", "U2"], "value": 1},
+        {"index": ["T2", "U1"], "value": 1},
+        {"index": ["T2", "U2"], "value": 1},
+        {"index": ["T3", "U3"], "value": 1},
+        {"index": ["T4", "U3"], "value": 1},
+        {"index": ["T5", "U4"], "value": 1},
+        {"index": ["T5", "U5"], "value": 1},
+        {"index": ["T6", "U4"], "value": 1},
+        {"index": ["T6", "U5"], "value": 1},
+        {"index": ["T7", "U6"], "value": 1}
+    ],
+    "tau_p": [
+        {"index": ["T1", "U1"], "value": 4},
+        {"index": ["T1", "U2"], "value": 1},
+        {"index": ["T2", "U1"], "value": 3},
+        {"index": ["T2", "U2"], "value": 2},
+        {"index": ["T3", "U3"], "value": 2},
+        {"index": ["T4", "U3"], "value": 1},
+        {"index": ["T5", "U4"], "value": 1},
+        {"index": ["T5", "U5"], "value": 3},
+        {"index": ["T6", "U4"], "value": 2},
+        {"index": ["T6", "U5"], "value": 2},
+        {"index": ["T7", "U6"], "value": 3}
+    ],
+    "tau": [
+        {"index": ["T1", "U1"], "value": 4},
+        {"index": ["T1", "U2"], "value": 1},
+        {"index": ["T2", "U1"], "value": 3},
+        {"index": ["T2", "U2"], "value": 2},
+        {"index": ["T3", "U3"], "value": 2},
+        {"index": ["T4", "U3"], "value": 1},
+        {"index": ["T5", "U4"], "value": 1},
+        {"index": ["T5", "U5"], "value": 3},
+        {"index": ["T6", "U4"], "value": 2},
+        {"index": ["T6", "U5"], "value": 2},
+        {"index": ["T7", "U6"], "value": 3}
+    ],
+    "beta_min": [
+        {"index": ["T1", "U1"], "value": 10},
+        {"index": ["T1", "U2"], "value": 20},
+        {"index": ["T2", "U1"], "value": 10},
+        {"index": ["T2", "U2"], "value": 20},
+        {"index": ["T3", "U3"], "value": 20},
+        {"index": ["T4", "U3"], "value": 20},
+        {"index": ["T5", "U4"], "value": 20},
+        {"index": ["T5", "U5"], "value": 25},
+        {"index": ["T6", "U4"], "value": 20},
+        {"index": ["T6", "U5"], "value": 25},
+        {"index": ["T7", "U6"], "value": 10}
+    ],
+    "beta_max": [
+        {"index": ["T1", "U1"], "value": 40},
+        {"index": ["T1", "U2"], "value": 35},
+        {"index": ["T2", "U1"], "value": 40},
+        {"index": ["T2", "U2"], "value": 35},
+        {"index": ["T3", "U3"], "value": 55},
+        {"index": ["T4", "U3"], "value": 55},
+        {"index": ["T5", "U4"], "value": 35},
+        {"index": ["T5", "U5"], "value": 45},
+        {"index": ["T6", "U4"], "value": 35},
+        {"index": ["T6", "U5"], "value": 45},
+        {"index": ["T7", "U6"], "value": 50}
+    ],
+    "cost": [
+        {"index": ["T1", "U1"], "value": 40},
+        {"index": ["T1", "U2"], "value": 20},
+        {"index": ["T2", "U1"], "value": 25},
+        {"index": ["T2", "U2"], "value": 10},
+        {"index": ["T3", "U3"], "value": 20},
+        {"index": ["T4", "U3"], "value": 15},
+        {"index": ["T5", "U4"], "value": 20},
+        {"index": ["T5", "U5"], "value": 30},
+        {"index": ["T6", "U4"], "value": 20},
+        {"index": ["T6", "U5"], "value": 25},
+        {"index": ["T7", "U6"], "value": 30}
+    ],
+    "gamma": [
+        {"index": "S1", "value": 5000},
+        {"index": "S2", "value": 5000},
+        {"index": "S3", "value": 5000},
+        {"index": "S4", "value": 100},
+        {"index": "S5", "value": 100},
+        {"index": "S6", "value": 100},
+        {"index": "S7", "value": 100},
+        {"index": "S8", "value": 100},
+        {"index": "S9", "value": 100},
+        {"index": "S10", "value": 10000000},
+        {"index": "S11", "value": 10000000}
+    ],
+    "S0": [
+      {"index": "S1", "value": 5000},
+      {"index": "S2", "value": 5000},
+      {"index": "S3", "value": 5000}
+    ],
+    "demand": [
+      {"index": ["S10", 81], "value": 540},
+      {"index": ["S11", 120], "value": 1350}
+    ]
+  }
+  

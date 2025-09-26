@@ -1,0 +1,158 @@
+{
+    "I": ["ABI1", "CI1", "ABI2", "CI2", "BII1", "CII1", "AIII1", "BIII1", "CIII1", "BIII2", "CIII2"],
+    "J": ["I1", "I2", "II2", "III1", "III2"],
+    "K": ["RMAB", "RMC", "INTABI", "INTCI", "INTBII", "INTCII", "A", "B1", "C1", "B2", "C2"],
+    "delta": 1,
+    "lastT": 120,
+    "I_i_k_minus": [
+        {"index": ["ABI1", "RMAB"], "value": 1},
+        {"index": ["CI1", "RMAB"], "value": 1},
+        {"index": ["ABI2", "RMC"], "value": 1},
+        {"index": ["CI2", "RMC"], "value": 1},
+        {"index": ["BII1", "INTABI"], "value": 1},
+        {"index": ["BIII1", "INTBII"], "value": 1},
+        {"index": ["CIII1", "INTCII"], "value": 1},
+        {"index": ["BIII2", "INTBII"], "value": 1},
+        {"index": ["CIII2", "INTCII"], "value": 1}
+    ],
+    "I_i_k_plus": [
+        {"index": ["ABI1", "INTABI"], "value": 1},
+        {"index": ["CI1", "INTCI"], "value": 1},
+        {"index": ["ABI2", "INTABI"], "value": 1},
+        {"index": ["CI2", "INTCI"], "value": 1},
+        {"index": ["BII1", "INTBII"], "value": 1},
+        {"index": ["CII1", "INTCII"], "value": 1},
+        {"index": ["AIII1", "A"], "value": 1},
+        {"index": ["BIII1", "B1"], "value": 1},
+        {"index": ["CIII1", "C1"], "value": 1},
+        {"index": ["BIII2", "B2"], "value": 1},
+        {"index": ["CIII2", "C2"], "value": 1}
+    ],
+    "rho_minus": [
+        {"index": ["ABI1", "RMAB"], "value": 1},
+        {"index": ["CI1", "RMAB"], "value": 1},
+        {"index": ["ABI2", "RMC"], "value": 1},
+        {"index": ["CI2", "RMC"], "value": 1},
+        {"index": ["BII1", "INTABI"], "value": 1},
+        {"index": ["BIII1", "INTBII"], "value": 1},
+        {"index": ["CIII1", "INTCII"], "value": 1},
+        {"index": ["BIII2", "INTBII"], "value": 1},
+        {"index": ["CIII2", "INTCII"], "value": 1}
+    ],
+    "rho_plus": [
+        {"index": ["ABI1", "INTABI"], "value": 1},
+        {"index": ["CI1", "INTCI"], "value": 1},
+        {"index": ["ABI2", "INTABI"], "value": 1},
+        {"index": ["CI2", "INTCI"], "value": 1},
+        {"index": ["BII1", "INTBII"], "value": 1},
+        {"index": ["CII1", "INTCII"], "value": 1},
+        {"index": ["AIII1", "A"], "value": 1},
+        {"index": ["BIII1", "B1"], "value": 1},
+        {"index": ["CIII1", "C1"], "value": 1},
+        {"index": ["BIII2", "B2"], "value": 1},
+        {"index": ["CIII2", "C2"], "value": 1}
+    ],
+    "I_i_j_prod": [
+        {"index": ["ABI1", "I1"], "value": 1},
+        {"index": ["CI1", "I1"], "value": 1},
+        {"index": ["ABI2", "I2"], "value": 1},
+        {"index": ["CI2", "I2"], "value": 1},
+        {"index": ["BII1", "II2"], "value": 1},
+        {"index": ["CII1", "II2"], "value": 1},
+        {"index": ["AIII1", "III1"], "value": 1},
+        {"index": ["BIII1", "III1"], "value": 1},
+        {"index": ["CIII1", "III1"], "value": 1},
+        {"index": ["BIII2", "III2"], "value": 1},
+        {"index": ["CIII2", "III2"], "value": 1}
+    ],
+    "tau_p": [
+        {"index": ["ABI1", "I1"], "value": 3.25},
+        {"index": ["CI1", "I1"], "value": 3.25},
+        {"index": ["ABI2", "I2"], "value": 3.5},
+        {"index": ["CI2", "I2"], "value": 4.25},
+        {"index": ["BII1", "II2"], "value": 3.25},
+        {"index": ["CII1", "II2"], "value": 3.25},
+        {"index": ["AIII1", "III1"], "value": 5.25},
+        {"index": ["BIII1", "III1"], "value": 4.75},
+        {"index": ["CIII1", "III1"], "value": 6},
+        {"index": ["BIII2", "III2"], "value": 5},
+        {"index": ["CIII2", "III2"], "value": 5.75}
+    ],
+    "tau": [
+        {"index": ["ABI1", "I1"], "value": 4},
+        {"index": ["CI1", "I1"], "value": 4},
+        {"index": ["ABI2", "I2"], "value": 4},
+        {"index": ["CI2", "I2"], "value": 5},
+        {"index": ["BII1", "II2"], "value": 4},
+        {"index": ["CII1", "II2"], "value": 4},
+        {"index": ["AIII1", "III1"], "value": 6},
+        {"index": ["BIII1", "III1"], "value": 5},
+        {"index": ["CIII1", "III1"], "value": 6},
+        {"index": ["BIII2", "III2"], "value": 5},
+        {"index": ["CIII2", "III2"], "value": 6}
+    ],
+    "beta_min": [
+        {"index": ["ABI1", "I1"], "value": 3},
+        {"index": ["CI1", "I1"], "value": 3},
+        {"index": ["ABI2", "I2"], "value": 4},
+        {"index": ["CI2", "I2"], "value": 4},
+        {"index": ["BII1", "II2"], "value": 5},
+        {"index": ["CII1", "II2"], "value": 5},
+        {"index": ["AIII1", "III1"], "value": 4},
+        {"index": ["BIII1", "III1"], "value": 4},
+        {"index": ["CIII1", "III1"], "value": 4},
+        {"index": ["BIII2", "III2"], "value": 5},
+        {"index": ["CIII2", "III2"], "value": 5}
+    ],
+    "beta_max": [
+        {"index": ["ABI1", "I1"], "value": 150},
+        {"index": ["CI1", "I1"], "value": 150},
+        {"index": ["ABI2", "I2"], "value": 6},
+        {"index": ["CI2", "I2"], "value": 6},
+        {"index": ["BII1", "II2"], "value": 8},
+        {"index": ["CII1", "II2"], "value": 8},
+        {"index": ["AIII1", "III1"], "value": 10},
+        {"index": ["BIII1", "III1"], "value": 10},
+        {"index": ["CIII1", "III1"], "value": 10},
+        {"index": ["BIII2", "III2"], "value": 8},
+        {"index": ["CIII2", "III2"], "value": 8}
+    ],
+    "cost": [
+        {"index": ["ABI1", "I1"], "value": 3},
+        {"index": ["CI1", "I1"], "value": 2.8},
+        {"index": ["ABI2", "I2"], "value": 2.5},
+        {"index": ["CI2", "I2"], "value": 2.6},
+        {"index": ["BII1", "II2"], "value": 5},
+        {"index": ["CII1", "II2"], "value": 4.5},
+        {"index": ["AIII1", "III1"], "value": 2},
+        {"index": ["BIII1", "III1"], "value": 2.2},
+        {"index": ["CIII1", "III1"], "value": 1.8},
+        {"index": ["BIII2", "III2"], "value": 1.5},
+        {"index": ["CIII2", "III2"], "value": 2}
+    ],
+    "gamma": [
+        {"index": "RMAB", "value": 1250},
+        {"index": "RMC", "value": 1250},
+        {"index": "INTABI", "value": 50},
+        {"index": "INTCI", "value": 40},
+        {"index": "INTBII", "value": 40},
+        {"index": "INTCII", "value": 40},
+        {"index": "A", "value": 1250},
+        {"index": "B1", "value": 1250},
+        {"index": "C1", "value": 1250},
+        {"index": "B2", "value": 1250},
+        {"index": "C2", "value": 1250}
+    ],
+    "S0": [
+      {"index": "RMAB", "value": 1250},
+      {"index": "RMC", "value": 1250}
+    ],
+    "demand": [
+      {"index": ["A", 120], "value": 37.5},
+      {"index": ["B1", 120], "value": 37.5},
+      {"index": ["C1", 120], "value": 37.5},
+      {"index": ["B2", 120], "value": 37.5},
+      {"index": ["C2", 120], "value": 37.5}
+    ]
+  }
+  
